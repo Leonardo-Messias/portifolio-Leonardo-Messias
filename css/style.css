@@ -88,4 +88,40 @@ button:hover{
 }
 
 .container-text{
+    padding: 150px 0 0 130px;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #14c28e;
+}
+
+.text p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+.socias{
+    margin-top: 5px;
+}
+
+.socias a{
+    color: #14c28e;
+    padding: 10px;
+}
+
+.btn-sobre{
+    margin-top: 30px;
 }
