@@ -29,7 +29,7 @@ header{
     justify-content: space-around;
     align-items: center;
     max-width: 100%;
-    padding-top: 1rem;
+    padding-top: 16px;
 }
 
 .cabecalho-link{
@@ -37,13 +37,27 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 20%;
-    gap: 2rem;
-    font-weight: 18.75rem;
+    gap: 32px;
+    font-weight: 300px;
     cursor: pointer;
 
 }
 
 .cabecalho-link a{
     color: #fff;
-   font-size: .75rem;
+   font-size: 12px;
+   transition: all .3s ease-in-out;
+
+}
+
+.cabecalho-link a:hover{
+    color: #14c28e;
+    font-size: 12px;
+}
+
+.logo{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: .0625rem solid  #14c28e;
 }
