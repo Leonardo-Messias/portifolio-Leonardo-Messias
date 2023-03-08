@@ -15,7 +15,7 @@ body{
 
 .background{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-    background-image: url(/images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,4 +37,13 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 20%;
+    gap: 2rem;
+    font-weight: 18.75rem;
+    cursor: pointer;
+
+}
+
+.cabecalho-link a{
+    color: #fff;
+   font-size: .75rem;
 }
