@@ -118,7 +118,7 @@ button:hover{
     font-size: 60px;
 }
 
-.text span{
+.verde{
     color: #14c28e;
 }
 
@@ -132,7 +132,7 @@ button:hover{
 
 .socias{
     margin-top: 5px;
-    font-size: 25   px;
+    font-size: 25px;
 }
 
 .socias a{
@@ -205,4 +205,33 @@ button:hover{
 .btn-conversar:hover{
     background-color: transparent;
     border: 2px solid #14c28e;
+}
+
+.animation{
+    display: inline-block;
+    max-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #14c28e;
+    animation: pisca normal infinite .8s, escrever normal 10s steps(55) both;
+}
+
+ .full {
+   color: #96f5f0;
+}
+
+
+
+
+
+@keyframes pisca{
+   100%{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes escrever{
+    100%{
+        max-width: 100%;
+    }
 }
