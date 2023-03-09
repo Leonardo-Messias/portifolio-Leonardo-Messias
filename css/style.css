@@ -126,3 +126,66 @@ button:hover{
 .btn-sobre{
     margin-top: 30px;
 }
+
+.background-color-sobre{
+    background-color: #030305;
+    width: 100%;
+    padding: 100px;
+}
+
+.background-color-sobre img{
+    width: 830px;
+    height: auto;
+}
+
+.text-sobre{
+    width: 530px;
+}
+
+.main-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.text-sobre h1{
+    color: #fff;
+    font-size: 80px;
+    text-transform: capitalize; /*deixa a primeira letra maiuscula */
+    margin-bottom: 20px;
+}
+
+.text-sobre h5{
+    color: #fff;
+    letter-spacing: 2px; /*espaçamento entre as letras */
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.text-sobre p{
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    line-height: 28px; /*espaçamento entre as linhas */
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.btn-conversar{
+    background-color: #14c28e;
+    color: #fff;
+    text-transform: none;
+    width: auto;
+    border: 2px solid transparent;
+    font-weight: bold ;
+    padding: 13px 20px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.btn-conversar:hover{
+    background-color: transparent;
+    border: 2px solid #14c28e;
+}
