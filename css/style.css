@@ -7,13 +7,14 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Roboto Mono', monospace;
+    scroll-behavior: smooth;
 }
 
 body{
     overflow: auto;
 }
 
-.background{
+.nav-background{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-image: url(../images/background.jpg);
     background-size: cover;
@@ -44,27 +45,27 @@ header{
 
 .cabecalho-link a{
     color: #fff;
-   font-size: .75rem;
+   font-size: 25px;
    transition: all .3s ease-in-out;
 
 }
 
 .cabecalho-link a:hover{
     color: #14c28e;
-    font-size: .75rem;
+    font-size: 30px;
 }
 
 .logo{
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     background: transparent;
     color: #14c28e;
     border: 1px solid  #14c28e;
-    border-radius: 50%;
+    border-radius: 60%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 13px;
+    font-size: 30px;
     cursor: pointer;
 
 
@@ -85,6 +86,13 @@ button{
 button:hover{
     background-color: #14c28e;
     color: #fff;
+}
+
+.btn-contato{
+    display: flex;
+    width: auto;
+    font-size: 20px;
+    margin-left: 100px;
 }
 
 .container-text{
