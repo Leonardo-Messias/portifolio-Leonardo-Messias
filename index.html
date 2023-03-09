@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Leonardo Messias</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 </head>
 <body>
-    <div class="background">
+    <div class="nav-background">
         <header>
             <div class="logo">
                 <i class="fa-solid fa-l"></i> 
@@ -18,15 +18,15 @@
             <div class="cabecalho-link">
 
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
+                <li><a href="#sobre" id="btn-about">Sobre</a></li>
                 <li><a href="#">Serviços</a></li>
                 <li><a href="#">Trabalho</a></li>
 
-                <button>Meu Contato</button>
+                <button class="btn-contato">Meu Contato</button>
             </div>
         </header>
 
-    <div class="container-text">
+    <div class="container-text" id="home">
         <div class="text">
             <h3>Óla, meu nome é </h3>
             <h1>Leonardo<span> Messias</span></h1>
@@ -47,15 +47,15 @@
     </div>
     </div>
 
-    <section class="background-color-sobre">
+    <section class="background-color-sobre" id="sobre">
         <div class="main-sobre">
             <img src="images/logo.png"  >
             <div class="text-sobre">
                 <h1>Sobre-Mim</h1>
                 <h5>Desenvolvedor<span> FullStack</span></h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in rerum, 
-                  <br>  similique accusantium doloribus,
-                   <br>  accusamus exercitationem harum rem eligendi quaerat ut.
+                  <br>similique accusantium doloribus,
+                   <br>accusamus exercitationem harum rem eligendi quaerat ut.
                      Corrupti, recusandae voluptatem. Voluptas ipsa animi dicta excepturi perferendis!</p>
                 <button class="btn-conversar">Vamos Conversar</button>
             </div>
@@ -64,3 +64,15 @@
 
 </body>
 </html>
+
+
+<!-- <script>
+    const btnAbout = document.getElementById('btn-about');
+
+    btnAbout.addEventListener('click', (event) =>{
+        event.preventDefault();
+        const sobre = document.getElementById('sobre');
+        sobre.style.opacity = 1;
+        sobre.scrollIntoView({behavior: 'smooth'});
+    })
+</script> -->
