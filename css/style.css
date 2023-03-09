@@ -89,10 +89,18 @@ button:hover{
 }
 
 .btn-contato{
+    background-color: #14c28e;
+    color: #fff;
     display: flex;
     width: auto;
     font-size: 20px;
     margin-left: 100px;
+}
+
+.btn-contato:hover{
+    background-color: transparent;
+    color: #14c28e;
+    border: .0625rem solid #14c28e;
 }
 
 .container-text{
@@ -100,14 +108,14 @@ button:hover{
 }
 
 .text h3{
-    color: #fff;
-    font-size: 15px;
+    color: #96f5f0;
+    font-size: 20px;
 }
 
 .text h1{
     color: #fff;
     margin-top: 10px;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .text span{
@@ -116,7 +124,7 @@ button:hover{
 
 .text p{
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 300;
     margin-top: 10px;
 }
@@ -124,6 +132,7 @@ button:hover{
 
 .socias{
     margin-top: 5px;
+    font-size: 25   px;
 }
 
 .socias a{
