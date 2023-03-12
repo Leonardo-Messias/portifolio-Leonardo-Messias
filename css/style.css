@@ -119,7 +119,7 @@ button:hover{
 }
 
 .verde{
-    color: #14c28e;
+    color: #14c28e; 
 }
 
 .text p{
@@ -140,6 +140,8 @@ button:hover{
     padding: 10px;
 }
 
+
+
 .btn-sobre{
     margin-top: 30px;
 }
@@ -153,6 +155,8 @@ button:hover{
 .background-color-sobre img{
     width: 830px;
     height: auto;
+    box-shadow: #fff;
+    
 }
 
 .text-sobre{
