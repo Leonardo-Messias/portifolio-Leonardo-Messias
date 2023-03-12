@@ -224,6 +224,78 @@ button:hover{
    color: #96f5f0;
 }
 
+
+.container-services{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.container-services h1{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.container-services-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.container-services-cards{
+    background-color: #191919;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+}
+
+.container-services-cards h2{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.container-services-cards i{
+    color: #14c28e      ;
+    font-size: 50px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-services-cards p{
+    color: #fff;
+    font-size: 15px;
+    margin: 20px 20px; 
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ::-webkit-scrollbar{
     width: 10px;
     
