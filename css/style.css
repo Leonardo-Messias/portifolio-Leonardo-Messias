@@ -104,7 +104,7 @@ button:hover{
 }
 
 .container-text{
-    padding: 150px 0 0 130px;
+    padding: 350px 0 0 130px;
 }
 
 .text h3{
@@ -206,9 +206,13 @@ button:hover{
     transition: .5s;
 }
 
+
 .btn-conversar:hover{
-    background-color: transparent;
-    border: 2px solid #14c28e;
+        text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #E94BE8;
+        background-color: transparent;
+        border: 1px solid rgb(0, 255, 213);
+        box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
+      
 }
 
 .animation{
@@ -234,29 +238,36 @@ button:hover{
 .container-services h1{
     color: #fff;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 50px;
 }
 
 .container-services-box{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     min-height: 400px;
-    margin-left: 20px;
     flex-wrap: wrap;
 }
 
 .container-services-cards{
     background-color: #191919;
-    height: 365px;
-    width: 335px;
+    height: 420px;
+    width: 380px;
+    border: 20px;
     border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.4s;
+    /* box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB); */
 }
 
 .container-services-cards h2{
     color: #fff;
-    font-size: 30px;
+    font-size: 22px;
     margin-bottom: 20px;
     text-align: center;
     text-decoration: dashed;
@@ -272,27 +283,37 @@ button:hover{
 }
 
 .container-services-cards p{
-    color: #fff;
+    color: #bdbdbd;
     font-size: 15px;
     margin: 20px 20px; 
     position: relative;
     overflow: hidden;
     text-align: center;
+    line-height: 25px;
 }
 
+.container-services-cards:hover{
+    transform: translateY(-1.5rem);
+    border: #14c28e 0.2em solid;
+    border-radius: 2.5rem 0 2.5rem 0;
+}
 
+.btn-ler{
+    background-color: #14c28e;
+    color: #fff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold ;
+    padding: 13px 20px;
+    border-radius: 10px;
+    transition: .5s;
+    margin-top: 3px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.btn-ler:hover{
+    background-color: transparent;
+    border: 2px solid #14c28e;
+}
 
 
 
@@ -326,3 +347,6 @@ button:hover{
         max-width: 100%;
     }
 }
+
+
+
