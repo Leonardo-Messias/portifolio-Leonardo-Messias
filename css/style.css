@@ -30,7 +30,7 @@ header{
     justify-content: space-around;
     align-items: center;
     max-width: 100%;
-    padding-top: 1rem;
+    padding-top: 16px;
 }
 
 .cabecalho-link{
@@ -38,35 +38,35 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 20%;
-    gap: 2rem;
-    font-weight: 18.75rem;
+    gap: 32px;
+    font-weight: 300px;
     cursor: pointer;
 
 }
 
 .cabecalho-link a{
     color: #fff;
-   font-size: 25px;
+   font-size: 1.5625rem;
    transition: all .3s ease-in-out;
 
 }
 
 .cabecalho-link a:hover{
     color: #14c28e;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .logo{
-    width: 70px;
-    height: 70px;
+    width: 4.375rem;
+    height: 4.375rem;
     background: transparent;
     color: #14c28e;
-    border: 1px solid  #14c28e;
+    border: .0625rem solid  #14c28e;
     border-radius: 60%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 1.875rem;
     cursor: pointer;
 
 
@@ -76,11 +76,11 @@ button{
     white-space: nowrap;
     color: #14c28e;
     background: transparent;
-    border: solid .0625rem #14c28e;
-    border-radius: .9375rem;
-    padding: .3125rem;
-    font-size: 15px;
-    width: 150px;
+    border: solid 1px #14c28e;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: .9375rem;
+    width: 9.375rem;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -94,29 +94,29 @@ button:hover{
     color: #fff;
     display: flex;
     width: auto;
-    font-size: 20px;
-    margin-left: 100px;
+    font-size: 1.25rem;
+    margin-left: 6.25rem;
 }
 
 .btn-contato:hover{
     background-color: transparent;
     color: #14c28e;
-    border: .0625rem solid #14c28e;
+    border: 1px solid #14c28e;
 }
 
 .container-text{
-    padding: 350px 0 0 130px;
+    padding: 21.875rem 0 0 8.125rem;
 }
 
 .text h3{
     color: #96f5f0;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .text h1{
     color: #fff;
-    margin-top: 10px;
-    font-size: 60px;
+    margin-top: .625rem;
+    font-size: 3.75rem;
 }
 
 .verde{
@@ -125,79 +125,79 @@ button:hover{
 
 .text p{
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 300;
-    margin-top: 10px;
+    margin-top: .625rem;
 }
 
 
 .socias{
-    margin-top: 5px;
-    font-size: 25px;
+    margin-top: .3125rem;
+    font-size: 1.5625rem;
 }
 
 .socias a{
     color: #14c28e;
-    padding: 10px;
+    padding: .625rem;
     transition: 0.5s;
 }
 
 .socias a:hover{
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 
 
 .btn-sobre{
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .background-color-sobre{
     background-color: #030305;
     width: 100%;
-    padding: 100px;
+    padding: 3.125rem;
 }
 
 .background-color-sobre img{
-    width: 830px;
+    width: 50%;
     height: auto;
     box-shadow: #fff;
     
 }
 
 .text-sobre{
-    width: 530px;
+    width: 60%;
 }
 
 .main-sobre{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 1130px;
+    width: 70.625rem;
     margin: 0 auto;
 }
 
 .text-sobre h1{
     color: #fff;
-    font-size: 80px;
+    font-size: 5rem;
     text-transform: capitalize; /*deixa a primeira letra maiuscula */
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .text-sobre h5{
     color: #fff;
-    letter-spacing: 2px; /*espaçamento entre as letras */
-    font-size: 22px;
-    margin-bottom: 25px;
+    letter-spacing: .125rem; /*espaçamento entre as letras */
+    font-size: 1.375rem;
+    margin-bottom: 1.5625rem;
     text-transform: capitalize;
 }
 
 .text-sobre p{
     color: #fcfcfc;
-    letter-spacing: 1px;
-    line-height: 28px; /*espaçamento entre as linhas */
-    font-size: 18px;
-    margin-bottom: 45px;
+    letter-spacing: .0625rem;
+    line-height: 1.75rem; /*espaçamento entre as linhas */
+    font-size: 1.125rem;
+    margin-bottom: 2.8125rem;
 }
 
 .btn-conversar{
@@ -205,19 +205,19 @@ button:hover{
     color: #fff;
     text-transform: none;
     width: auto;
-    border: 2px solid transparent;
+    border: .125rem solid transparent;
     font-weight: bold ;
-    padding: 13px 20px;
-    border-radius: 10px;
+    padding: .8125rem 1.25rem;
+    border-radius: .625rem;
     transition: .5s;
 }
 
 
 .btn-conversar:hover{
-        text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #E94BE8;
+        text-shadow: -0.0625rem -0.0625rem 0rem #1df2f0, .0625rem .0625rem 0rem #E94BE8;
         background-color: transparent;
-        border: 1px solid rgb(0, 255, 213);
-        box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
+        border: .0625rem solid rgb(0, 255, 213);
+        box-shadow: 0rem .625rem .625rem -0.625rem rgb(0, 255, 213);
       
 }
 
@@ -226,7 +226,7 @@ button:hover{
     max-width: 0;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 2px solid #14c28e;
+    border-right: .125rem solid #14c28e;
     animation: pisca normal infinite .8s, escrever normal 10s steps(55) both;
 }
 
@@ -239,14 +239,14 @@ button:hover{
     background-color: #101010;
     width: 100%;
     height: 100%;
-    padding: 100px 0px;
+    padding: 6.25rem 0rem;
 }
 
 .container-services h1{
     color: #fff;
     text-align: center;
-    font-size: 60px;
-    margin-bottom: 50px;
+    font-size: 3.75rem;
+    margin-bottom: 3.125rem;
     
 }
 
@@ -254,37 +254,37 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 500px;
+    min-height: 31.25rem;
     flex-wrap: wrap;
 }
 
 .container-services-cards{
     background-color: #191919;
-    height: 420px;
-    width: 380px;
-    border: 20px;
-    border-radius: 20px;
-    margin: 15px;
+    height: 26.25rem;
+    width: 23.75rem;
+    border: 1.25rem;
+    border-radius: 1.25rem;
+    margin: .9375rem;
     position: relative;
     overflow: hidden;
     text-align: center;
     transition: 0.4s;
-    /* box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    /* box-shadow: rgba(151, 65, 252, 0.2) 0 .9375rem 1.875rem -0.3125rem;
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB); */
 }
 
 .container-services-cards h2{
     color: #fff;
-    font-size: 22px;
-    margin-bottom: 20px;
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
     text-align: center;
     text-decoration: dashed;
 }
 
 .container-services-cards i{
     color: #14c28e      ;
-    font-size: 50px;
-    margin: 20px 20px;
+    font-size: 3.125rem;
+    margin: 1.25rem 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,48 +292,48 @@ button:hover{
 
 .container-services-cards p{
     color: #bdbdbd;
-    font-size: 15px;
-    margin: 20px 20px; 
+    font-size: .9375rem;
+    margin: 1.25rem 1.25rem; 
     position: relative;
     overflow: hidden;
     text-align: center;
-    line-height: 25px;
+    line-height: 1.5625rem;
 }
 
 .container-services-cards:hover{
-    transform: translateY(-1.5rem);
+    transform: translateY(-24px);
     border: #14c28e 0.2em solid;
-    border-radius: 2.5rem 0 2.5rem 0;
+    border-radius: 40px 0 40px 0;
 }
 
 .btn-ler{
     background-color: #14c28e;
     color: #fff;
     text-transform: none;
-    border: 2px solid transparent;
+    border: .125rem solid transparent;
     font-weight: bold ;
-    padding: 13px 20px;
-    border-radius: 10px;
+    padding: .8125rem 1.25rem;
+    border-radius: .625rem;
     transition: .5s;
-    margin-top: 3px;
+    margin-top: .1875rem;
 }
 
 .btn-ler:hover{
     background-color: transparent;
-    border: 2px solid #14c28e;
+    border: .125rem solid #14c28e;
 }
 
  .cop{
     color: #14c28e;
-    font-size: 15px;
-    margin: 10px 0px;
+    font-size: .9375rem;
+    margin: .625rem 0rem;
     font-weight: bold;
 }
 
 .cop i {
     color: #14c28e;
-    font-size: 15px;
-    margin: 5px 5px;
+    font-size: .9375rem;
+    margin: .3125rem .3125rem;
     font-weight: bold;
 }
 
@@ -346,7 +346,7 @@ button:hover{
 .footer-contato{
     background-color: #000000;    
     width: 100%;
-    padding: 30px 0px;
+    padding: 1.875rem 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -361,7 +361,7 @@ button:hover{
     background-color: #000000;
     color: #14c28e;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 1.875rem;
     transition: 0.5s;
     overflow: hidden;
 }
@@ -369,7 +369,7 @@ button:hover{
 
 
 ::-webkit-scrollbar{
-    width: 10px;
+    width: .625rem;
     
 }
 
@@ -379,11 +379,14 @@ button:hover{
 
 ::-webkit-scrollbar-thumb{
     background: #14c28e;
-    border-radius: 5px;
+    border-radius: .3125rem;
 }
 
 
-/* KeyFrames */
+
+
+
+
 @keyframes pisca{
    100%{
         border-right-color: transparent;
@@ -396,9 +399,11 @@ button:hover{
     }
 }
 
+
+
 /* Media Query */
 
-@media (max-width: 900px){
+@media (max-width: 56.25rem){
 
     .background-color-sobre{
         padding: 0;
@@ -410,7 +415,7 @@ button:hover{
         align-items: center;
         justify-content: center;
         width: 100%;
-        padding-bottom: 50px;
+        padding-bottom: 3.125rem;
         
     }
 
@@ -426,12 +431,11 @@ button:hover{
     }
 
     .text-sobre h1{
-        font-size: 42px;
+        font-size: 2.625rem;
     }
 
     .text-sobre p{
-        font-size: 18px;
+        font-size: 1.125rem;
         text-align: center;
     }
 }
-
