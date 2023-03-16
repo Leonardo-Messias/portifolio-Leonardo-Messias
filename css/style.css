@@ -383,10 +383,7 @@ button:hover{
 }
 
 
-
-
-
-
+/* KeyFrames */
 @keyframes pisca{
    100%{
         border-right-color: transparent;
@@ -399,5 +396,37 @@ button:hover{
     }
 }
 
+/* Media Query */
 
+@media (max-width: 900px){
+
+    .background-color-sobre{
+        padding: 0;
+    }
+
+    .main-sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 50px;
+        
+    }
+
+    .main-sobre img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .text-sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-sobre h1{
+        font-size: 42px;
+    }
+}
 
