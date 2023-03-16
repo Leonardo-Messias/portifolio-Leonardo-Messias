@@ -428,5 +428,10 @@ button:hover{
     .text-sobre h1{
         font-size: 42px;
     }
+
+    .text-sobre p{
+        font-size: 18px;
+        text-align: center;
+    }
 }
 
