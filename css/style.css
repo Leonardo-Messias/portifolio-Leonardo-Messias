@@ -13,6 +13,8 @@
 
 body{
     overflow: auto;
+    width: 100%;
+    height: 100%;
 }
 
 .nav-background{
@@ -148,6 +150,7 @@ button:hover{
 
 
 
+
 .btn-sobre{
     margin-top: 1.875rem;
 }
@@ -165,6 +168,53 @@ button:hover{
     
 }
 
+aside{
+    position: absolute;
+    top: 0;
+    right: 180px;
+    display: flex;
+    overflow: hidden;
+}
+
+.icon-menu .menu{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: none;
+}
+
+#barra-menu{
+    background-color: #191919;
+    height: 100vh;
+    width: 0px;
+    transition: 0.3s all;
+}
+
+#barra-menu ul li{
+    list-style: none;
+    padding: 15px;
+}
+
+#barra-menu ul li a{
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#barra-menu ul li a:hover{
+    border: solid 1px #fcfcfc;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #14c28e;
+}
+
+.c-icon{
+    display: none;
+}
+
 .text-sobre{
     width: 60%;
 }
@@ -173,7 +223,7 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 70.625rem;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -403,7 +453,35 @@ button:hover{
 
 /* Media Query */
 
-@media (max-width: 56.25rem){
+@media screen and (max-width: 1200px) {
+
+
+
+    .text-sobre h1{
+        font-size: 2.625rem;
+    }
+
+    .text-sobre p{
+        font-size: 1rem;
+    }
+    
+    
+}
+
+@media screen and (max-width: 900px){
+
+    .cabecalho-link{
+        display: none;
+    }
+
+    #barra-menu{
+        height: 100vh;
+        z-index: 1;
+    }
+
+    .icon-menu .menu{
+        display: block;
+    }
 
     .background-color-sobre{
         padding: 0;
@@ -420,8 +498,8 @@ button:hover{
     }
 
     .main-sobre img{
-        width: 100%;
-        height: 100%;
+        width: auto;
+        height: auto;
     }
 
     .text-sobre{
