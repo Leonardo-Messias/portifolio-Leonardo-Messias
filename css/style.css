@@ -498,8 +498,8 @@ aside{
     }
 
     .main-sobre img{
-        width: auto;
-        height: auto;
+        width: 60%;
+        height: 60%;
     }
 
     .text-sobre{
@@ -514,6 +514,16 @@ aside{
 
     .text-sobre p{
         font-size: 1.125rem;
-        text-align: center;
+        /* text-align: center; */
+    }
+
+    .container-services h1{
+        font-size: 2.625rem;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .container-services h1{
+        font-size: 2.4rem;
+    }
+}   
