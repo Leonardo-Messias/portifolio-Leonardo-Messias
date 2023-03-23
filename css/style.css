@@ -522,7 +522,7 @@ aside{
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 570px) {
     .container-services h1{
         font-size: 2.4rem;
     }
