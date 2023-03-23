@@ -470,6 +470,10 @@ aside{
 
 @media screen and (max-width: 900px){
 
+    header{
+        justify-content: flex-start;   
+        }
+
     .cabecalho-link{
         display: none;
     }
