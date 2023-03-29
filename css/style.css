@@ -167,7 +167,7 @@ button:hover{
 }
 
 .background-color-sobre img{
-    width: 25%;
+    width: 50%;
     height: auto;
     box-shadow: #fff;
     
@@ -176,7 +176,7 @@ button:hover{
 aside{
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 0px;
     display: none;
     overflow: hidden;
 }
@@ -490,12 +490,13 @@ aside{
 
     #barra-menu{
         height: 100vh;
-        width: 12.5rem;
         z-index: 1;
     }
 
     aside{
-        display:flex;
+        display: flex;
+
+      
     }
 
     .c-icon{
@@ -531,9 +532,8 @@ aside{
     }
 
     .main-sobre img{
-        width: 25%;
+        width: 60%;
         height: 60%;
-        margin: 20px;
     }
 
     .text-sobre{
@@ -553,14 +553,6 @@ aside{
 
     .container-services h1{
         font-size: 2.625rem;
-    }
-
-    .text p{
-        white-space: normal;
-    }
-
-    .text h1{
-            font-size: 2.1rem;
     }
 }
 
@@ -588,7 +580,7 @@ aside{
     }
 
     .main-sobre img{
-        width: 25%;
+        width: 60%;
         height: 60%;
     }
 
