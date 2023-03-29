@@ -533,6 +533,7 @@ aside{
     .main-sobre img{
         width: 25%;
         height: 60%;
+        margin: 20px;
     }
 
     .text-sobre{
