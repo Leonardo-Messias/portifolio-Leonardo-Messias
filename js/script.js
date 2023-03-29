@@ -8,3 +8,7 @@ function openMenu(){
     }
 }
 
+function closeMenu(){
+    let SideOpenMenu = document.getElementById('barra-menu')
+    SideOpenMenu.style.width = "0px";
+}
