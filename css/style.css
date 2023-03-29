@@ -176,7 +176,7 @@ button:hover{
 aside{
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 0px;
     display: none;
     overflow: hidden;
 }
