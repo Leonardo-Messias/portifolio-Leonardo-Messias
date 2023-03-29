@@ -162,7 +162,7 @@ button:hover{
 }
 
 .background-color-sobre img{
-    width: 50%;
+    width: 30%;
     height: auto;
     box-shadow: #fff;
     
@@ -511,6 +511,7 @@ aside{
         padding: 0;
     }
 
+
     .main-sobre{
         display: flex;
         flex-direction: column;
@@ -522,9 +523,10 @@ aside{
     }
 
     .main-sobre img{
-        width: 60%;
-        height: 60%;
-    }
+      
+        width: 25%;
+        margin-top: 30px;
+        }
 
     .text-sobre{
         display: flex;
@@ -558,6 +560,8 @@ aside{
     .background-color-sobre{
         padding: 0;
     }
+
+
 
     .main-sobre{
         display: flex;
