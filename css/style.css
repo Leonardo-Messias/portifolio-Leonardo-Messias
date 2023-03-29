@@ -176,7 +176,7 @@ button:hover{
 aside{
     position: absolute;
     top: 0;
-    right: 0px;
+    right: 25px;
     display: none;
     overflow: hidden;
 }
@@ -560,7 +560,7 @@ aside{
     }
 
     .text h1{
-        font-size: 2rem;
+            font-size: 2.1rem;
     }
 }
 
