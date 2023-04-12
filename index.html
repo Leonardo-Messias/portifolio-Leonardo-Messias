@@ -1,209 +1,275 @@
 <!DOCTYPE html>
 <html lang="EN">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leonardo Messias</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="nav-background" id="nav">
-        <header>
-            <div class="logo">
-                <i class="fa-solid fa-l"></i> 
-                <i class="fa-solid fa-m"></i> 
-            </div>
-            <div class="cabecalho-link">
-           
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about" id="btn-about">Sobre</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#">Trabalho</a></li>
-          
-                <button class="btn-contato">Meu Contato</button>
-            </div>
-        </header>
-
-
-        <!--Seção Home-->
-    <div class="container-text" id="home">
-        <div class="text">
-            <h3>Óla, meu nome é </h3>
-            <h1>Leonardo<span class="verde"> Messias</span></h1>
-            <p class="animation">Eu sou Desenvolvedor <span class="full">FullStack</span></p>
-            <div class="socias">
-                <a href="https://github.com/Leonardo-Messias" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/leonardo-messias-6187a119b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://wa.link/gumbe0"target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://instagram.com/leo_messias19?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                
-            </div>
-            <a href="#about"> <button class="btn-sobre"> Sobre Mim</button></a>
-        </div> <!-- Fim do text -->
-    </div> <!-- Fim do container-text -->
-
-        <aside>
-            <div class="icon-menu" onclick="openMenu()">
-                <div class="menu"><ion-icon name="menu-outline"></ion-icon></div>
-            </div>
-
-            <div id="barra-menu" onclick="closeMenu()" style="width: 0px;">
-                <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about" id="btn-about">Sobre</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#">Trabalho</a></li>
-                <button class="c-icon">Meu Contato</button>
-                </ul>
-            </div>
-        </aside>
-
-
-    </div> <!-- Fim do nav-background -->
-
-
-            <!--Seção Sobre-->
-    <section class="background-color-sobre" id="about">
-        <div class="main-sobre">
-            <img src="images/perfil.png"  >
-            <div class="text-sobre">
-                <h1>Sobre-Mim</h1>
-                <h5>Desenvolvedor<span class="verde"> FullStack</span></h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in rerum, 
-                  <br>similique accusantium doloribus,
-                   <br>accusamus exercitationem harum rem eligendi quaerat ut.
-                     Corrupti, recusandae voluptatem. Voluptas ipsa animi dicta excepturi perferendis!</p>
-                <a href="shared/Profile.pdf" download="Profile.pdf" type="application/pdf" target="_blank" class="btn-conversar">Baixar Currículo</a>
-            </div>
+      <header>
+        <div class="logo">
         </div>
+        <div class="cabecalho-link">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about" id="btn-about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#projects">Projetos</a></li>
+
+          <button class="btn-contato">Meu Contato</button>
+        </div>
+      </header>
+
+      <!--Seção Home-->
+      <div class="container-text" id="home">
+        <div class="text">
+          <h3>Óla, meu nome é</h3>
+          <h1>Leonardo<span class="verde"> Messias</span></h1>
+          <p class="animation">
+            Eu sou Desenvolvedor <span class="full">FullStack</span>
+          </p>
+          <div class="socias">
+            <a href="https://github.com/Leonardo-Messias" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/leonardo-messias-6187a119b/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://wa.link/gumbe0" target="_blank"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a
+              href="https://instagram.com/leo_messias19?igshid=YmMyMTA2M2Y="
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <a href="#about"> <button class="btn-sobre">Sobre Mim</button></a>
+        </div>
+        <!-- Fim do text -->
+      </div>
+      <!-- Fim do container-text -->
+
+      <aside>
+        <div class="icon-menu" onclick="openMenu()">
+          <div class="menu"><ion-icon name="menu-outline"></ion-icon></div>
+        </div>
+
+        <div id="barra-menu" onclick="closeMenu()" style="width: 0px">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about" id="btn-about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#">Trabalho</a></li>
+            <button class="c-icon">Meu Contato</button>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <!-- Fim do nav-background -->
+
+    <!--Seção Sobre-->
+    <section class="background-color-sobre" id="about">
+      <div class="main-sobre">
+        <img src="images/perfil.png" />
+        <div class="text-sobre">
+          <h1>Sobre-Mim</h1>
+          <h5>Desenvolvedor<span class="verde"> FullStack</span></h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in
+            rerum, <br />similique accusantium doloribus, <br />accusamus
+            exercitationem harum rem eligendi quaerat ut. Corrupti, recusandae
+            voluptatem. Voluptas ipsa animi dicta excepturi perferendis!
+          </p>
+          <a
+            href="shared/Profile.pdf"
+            download="Profile.pdf"
+            type="application/pdf"
+            target="_blank"
+            class="btn-conversar"
+            >Baixar Currículo</a
+          >
+        </div>
+      </div>
     </section>
 
-            <!--Fim seção Sobre-->
+    <!--Fim seção Sobre-->
 
-            <!--Seção Serviços-->
+    <!--Seção Serviços-->
     <div class="container-services" id="services">
-            <h1>Serviços Disponíveis</h1>
+      <h1>Serviços Disponíveis</h1>
 
-        <div class="container-services-box">
-            <div class="container-services-cards">
-                
-                    <i class="fa-solid fa-laptop-code"></i>
-                    <h2>Desenvolvimento Web</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in rerum, similique accusantium doloribus, accusamus exercitationem harum rem eligendi quaerat ut. Corrupti, recusandae voluptatem. Voluptas ipsa animi dicta excepturi perferendis!</p>
-                    <button class="btn-ler">Ler Mais</button>
-               
-            </div>
-
-            <div class="container-services-cards">
-                    <i class="fa-solid fa-mobile-android"></i>
-                    <h2>Desenvolvimento Mobile</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in rerum, similique accusantium doloribus, accusamus exercitationem harum rem eligendi quaerat ut. Corrupti, recusandae voluptatem. Voluptas ipsa animi dicta excepturi perferendis!</p>
-                    <button class="btn-ler">Ler Mais</button>
-            </div>   
-
-            <div class="container-services-cards">
-                    <i class="fa-solid fa-user"></i>
-                    <h2>Desenvolvimento BackEnd</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in rerum, similique accusantium doloribus, accusamus exercitationem harum rem eligendi quaerat ut. Corrupti, recusandae voluptatem. Voluptas ipsa animi dicta excepturi perferendis!</p>
-                    <button class="btn-ler">Ler Mais</button>
-            </div>
+      <div class="container-services-box">
+        <div class="container-services-cards">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h2>Desenvolvimento Web</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in
+            rerum, similique accusantium doloribus, accusamus exercitationem
+            harum rem eligendi quaerat ut. Corrupti, recusandae voluptatem.
+            Voluptas ipsa animi dicta excepturi perferendis!
+          </p>
+          <button class="btn-ler">Ler Mais</button>
         </div>
+
+        <div class="container-services-cards">
+          <i class="fa-solid fa-mobile-android"></i>
+          <h2>Desenvolvimento Mobile</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in
+            rerum, similique accusantium doloribus, accusamus exercitationem
+            harum rem eligendi quaerat ut. Corrupti, recusandae voluptatem.
+            Voluptas ipsa animi dicta excepturi perferendis!
+          </p>
+          <button class="btn-ler">Ler Mais</button>
         </div>
-            <!--Fim seção Serviços-->
 
-            <div class="top">
-            <a href="#nav"><i class="fa-solid fa-arrow-up"></i></a> 
-            </div>  
+        <div class="container-services-cards">
+          <i class="fa-solid fa-user"></i>
+          <h2>Desenvolvimento BackEnd</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in
+            rerum, similique accusantium doloribus, accusamus exercitationem
+            harum rem eligendi quaerat ut. Corrupti, recusandae voluptatem.
+            Voluptas ipsa animi dicta excepturi perferendis!
+          </p>
+          <button class="btn-ler">Ler Mais</button>
+        </div>
+      </div>
+    </div>
+    <!--Fim seção Serviços-->
 
-            <!--Seção Projetos-->
+   
 
-            <!--Fim seção Projetos-->
+    <!--Seção Projetos-->
 
+    <!--Fim seção Projetos-->
 
-            <!--Seção Footer-->
-            <footer class="footer">
-                <div id="footer_content">
-                    <div id="footer_contacts">
-                        <h1>Logo</h1>
-                        <p>It's all about your dreams.</p>
-    
-                        <div id="footer_social_media">
-                            <a href="#" class="footer_link" id="instagram">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-    
-                            <a href="#" class="footer_link" id="github">
-                                <i class="fa-brands fa-github"></i> 
-                            </a>
-    
-                            <a href="#" class="footer_link" id="wpp">
-                            <i class="fa-brands fa-whatsapp"></i> 
-                            </a>
-    
-                            <a href="#" class="footer_link" id="linkedin">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-    
-                        </div>
-                    </div>
-    
-    
-                <ul class="footer-list">
-                    <li>
-                        <h3>Products</h3>
-                    </li>
-                    <li><a href="#" class="footer-link">Link 1</a></li>
-                    <li><a href="#" class="footer-link">Link 2</a></li>
-                    <li><a href="#" class="footer-link">Link 3</a></li>
-                </ul>
-    
-                <div id="footer_subscribe">
-                    <h3>Contato</h3>
+    <!--Seção Footer-->
+    <footer class="footer">
+      <div id="footer_content">
+        <div id="footer_contacts">
+          <h1>Logo</h1>
+          <p>It's all about your dreams.</p>
 
-                    <div class="form">
-                    <form action="https://api.staticforms.xyz/submit" method="post" >
-                        <label >Nome:</label>
-                        <input type="text" name="name" id="name" placeholder="Digite seu nome completo" autocomplete="off" required>
-                        <label >Email:</label>
-                        <input type="email" name="email" id="email" placeholder="Digite seu email"  autocomplete="off" required>
-                        <label >Menssagem:</label>
-                        <textarea name="message" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" autocomplete="off" required></textarea>
+          <div id="footer_social_media">
+            <a href="#" class="footer_link" id="instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
 
-                        <button type="submit" name="enviar">Enviar</button>
+            <a href="#" class="footer_link" id="github">
+              <i class="fa-brands fa-github"></i>
+            </a>
 
-                        <input type="hidden" name="accessKey" value="77c1f458-6f75-4cb6-b595-572e460e9f59">
-                        <input type="hidden" name="redirectTo" value="https://leonardo-messias.netlify.app/">
-                    </form>
-                </div>
+            <a href="#" class="footer_link" id="wpp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
 
-    
-                    <!-- <p>Enter your email to get notified about our news solutions</p>
+            <a href="#" class="footer_link" id="linkedin">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+
+        <ul class="footer-list">
+          <li>
+            <h3>Products</h3>
+          </li>
+          <li><a href="#" class="footer-link">Link 1</a></li>
+          <li><a href="#" class="footer-link">Link 2</a></li>
+          <li><a href="#" class="footer-link">Link 3</a></li>
+        </ul>
+
+        <div id="footer_subscribe">
+          <h3>Contato</h3>
+
+          <div class="form">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+              <label>Nome:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Digite seu nome completo"
+                autocomplete="off"
+                required
+              />
+              <label>Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Digite seu email"
+                autocomplete="off"
+                required
+              />
+              <label>Menssagem:</label>
+              <textarea
+                name="message"
+                id="mensagem"
+                cols="30"
+                rows="10"
+                placeholder="Digite sua mensagem"
+                autocomplete="off"
+                required
+              ></textarea>
+
+              <button type="submit" name="enviar">Enviar</button>
+
+              <input
+                type="hidden"
+                name="accessKey"
+                value="77c1f458-6f75-4cb6-b595-572e460e9f59"
+              />
+              <input
+                type="hidden"
+                name="redirectTo"
+                value="https://leonardo-messias.netlify.app/"
+              />
+            </form>
+          </div>
+
+          <!-- <p>Enter your email to get notified about our news solutions</p>
     
                     <div id="input_group">
                         <input type="email" placeholder="Email">
                         <button><i class="fa-regular fa-envelope"></i></button>
                     </div> -->
-                </div>
-    
-                </div>
-    
-                <div class="footer-contato">
-                    <span class="cop">Copyright<i class="fa-regular fa-copyright"></i>2023, Leonardo Messias </span>
-            </div>
-                
-        </footer>
-             <!--Fim seção Footer-->
+        </div>
+      </div>
+
+      <div class="footer-contato">
+        <span class="cop"
+          >Copyright<i class="fa-regular fa-copyright"></i>2023, Leonardo
+          Messias
+        </span>
+        <div class="top">
+            <a href="#nav"><i class="fa-solid fa-arrow-up"></i></a>
+          </div>
+      </div>
+    </footer>
+    <!--Fim seção Footer-->
 
     <script src="./js/script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
-
 
 <!-- <script>
     const btnAbout = document.getElementById('btn-about');
