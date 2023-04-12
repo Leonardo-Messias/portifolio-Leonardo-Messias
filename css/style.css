@@ -66,17 +66,13 @@ header{
 .logo{
     width: 4.375rem;
     height: 4.375rem;
-    background: transparent;
-    color: #14c28e;
-    border: .0625rem solid  #14c28e;
-    border-radius: 60%;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.875rem;
     cursor: pointer;
-
-
+}
+.Logo img{
+    width: 100px;
 }
 
 button{
@@ -164,6 +160,7 @@ button:hover{
     background-color: #030305;
     width: 100%;
     padding: 3.125rem;
+    
 }
 
 .background-color-sobre img{
@@ -757,5 +754,9 @@ form textarea{
     #footer_content{
         grid-template-columns: repeat(1, 1fr);
         gap: 3rem 2rem;
+    }
+
+    .text p{
+        font-size: 1.13rem;
     }
 }
