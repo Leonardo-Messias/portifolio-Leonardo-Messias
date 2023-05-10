@@ -1,278 +1,337 @@
 <!DOCTYPE html>
 <html lang="EN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leonardo Messias</title>
-    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <div class="nav-background" id="nav">
-      <header>
-        <div class="logo">
-        </div>
-        <div class="cabecalho-link">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about" id="btn-about">Sobre</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#projects">Projetos</a></li>
 
-          <button class="btn-contato">Meu Contato</button>
-        </div>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leonardo Messias</title>
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
 
-      <!--Seção Home-->
-      <div class="container-text" id="home">
-        <div class="text">
-          <h3>Óla, meu nome é</h3>
-          <h1>Leonardo<span class="verde"> Messias</span></h1>
-          <p class="animation">
-            Eu sou Desenvolvedor <span class="full">FullStack</span>
-          </p>
-          <div class="socias">
-            <a href="https://github.com/Leonardo-Messias" target="_blank"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/leonardo-messias-6187a119b/"
-              target="_blank"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-            <a href="https://wa.link/gumbe0" target="_blank"
-              ><i class="fa-brands fa-whatsapp"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/leonardo_messias.dev/?igshid=NTc4MTIwNjQ2YQ%3D%3D"
-              target="_blank"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="nav-background" id="nav">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" id="mainNavbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MESSIAS.DEV</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="bi bi-list text-white fs-1"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#porjetos">Projetos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link btn btn-primary" href="#">Contate-me</a>
+              </li>
+
+            </ul>
           </div>
-          <a href="#about"> <button class="btn-sobre">Sobre Mim</button></a>
         </div>
-        <!-- Fim do text -->
+      </nav>
+    </header>
+
+    <!--Seção Home-->
+    <div class="container-text" id="home">
+      <div class="text">
+        <h3>Óla, meu nome é</h3>
+        <h1>Leonardo<span class="verde"> Messias</span></h1>
+        <p class="animation">
+          Eu sou Desenvolvedor <span class="full">FullStack</span>
+        </p>
+        <div class="socias">
+          <a href="https://github.com/Leonardo-Messias" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/leonardo-messias-6187a119b/" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="https://wa.link/gumbe0" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/leonardo_messias.dev/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="#about"> <button class="btn-sobre">Sobre Mim</button></a>
       </div>
-      <!-- Fim do container-text -->
-
-      <aside>
-        <div class="icon-menu" onclick="openMenu()">
-          <div class="menu"><ion-icon name="menu-outline"></ion-icon></div>
-        </div>
-
-        <div id="barra-menu" onclick="closeMenu()" style="width: 0px">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about" id="btn-about">Sobre</a></li>
-            <li><a href="#services">Serviços</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#">Trabalho</a></li>
-            <button class="c-icon">Meu Contato</button>
-          </ul>
-        </div>
-      </aside>
+      <!-- Fim do text -->
     </div>
-    <!-- Fim do nav-background -->
+    <!-- Fim do container-text -->
 
-    <!--Seção Sobre-->
-    <section class="background-color-sobre" id="about">
-      <div class="main-sobre">
-        <img src="images/perfil.png" />
-        <div class="text-sobre">
-          <h1>Sobre-Mim</h1>
-          <h5>Desenvolvedor<span class="verde"> FullStack</span></h5>
-          <p>
-            Sou Leonardo, estudante de Ciência da Computação e desenvolvedor de software com mais de quatro anos de experiência.<br>
-            Tenho habilidades em Java, Angular, HTML, CSS, MySQL e Git, além de conhecimentos básicos em C++ e Python.<br> 
-            Fui estagiário na Unicarioca e no TCE-RJ, onde desenvolvi minhas habilidades técnicas e interpessoais.<br> 
-            Atualmente, sou Starter na GFT, onde estou aprimorando minhas habilidades em Java, MVC, Rest API, TDD, Spring Boot,<br>
-            Spring Security, Spring Mail, Mensageria, Micro Services, Angular e Human Skills.<br>
-            Estou sempre em busca de novos aprendizados e animado para contribuir em um ambiente de trabalho desafiador<br> 
-            e estimulante. Além disso, possuo habilidades básicas em inglês (A2).
-          </p>
-          <a
-            href="shared/Currículo Leonardo Messias.pdf"
-            download="Profile.pdf"
-            type="application/pdf"
-            target="_blank"
-            class="btn-conversar"
-            >Baixar Currículo</a
-          >
-        </div>
-      </div>
-    </section>
+  </div>
+  <!-- Fim do nav-background -->
 
-    <!--Fim seção Sobre-->
-
-    <!--Seção Serviços-->
-    <div class="container-services" id="services">
-      <h1>Serviços Disponíveis</h1>
-
-      <div class="container-services-box">
-        <div class="container-services-cards">
-          <i class="fa-solid fa-laptop-code"></i>
-          <h2>Desenvolvimento Web</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in
-            rerum, similique accusantium doloribus, accusamus exercitationem
-            harum rem eligendi quaerat ut. Corrupti, recusandae voluptatem.
-            Voluptas ipsa animi dicta excepturi perferendis!
-          </p>
-          <button class="btn-ler">Ler Mais</button>
-        </div>
-
-        <div class="container-services-cards">
-          <i class="fa-solid fa-mobile-android"></i>
-          <h2>Desenvolvimento Mobile</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in
-            rerum, similique accusantium doloribus, accusamus exercitationem
-            harum rem eligendi quaerat ut. Corrupti, recusandae voluptatem.
-            Voluptas ipsa animi dicta excepturi perferendis!
-          </p>
-          <button class="btn-ler">Ler Mais</button>
-        </div>
-
-        <div class="container-services-cards">
-          <i class="fa-solid fa-user"></i>
-          <h2>Desenvolvimento BackEnd</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in
-            rerum, similique accusantium doloribus, accusamus exercitationem
-            harum rem eligendi quaerat ut. Corrupti, recusandae voluptatem.
-            Voluptas ipsa animi dicta excepturi perferendis!
-          </p>
-          <button class="btn-ler">Ler Mais</button>
-        </div>
+  <!--Seção Sobre-->
+  <section class="background-color-sobre" id="about">
+    <div class="main-sobre">
+      <img src="images/perfil.png" />
+      <div class="text-sobre">
+        <h1>Sobre-Mim</h1>
+        <h5>Desenvolvedor<span class="verde"> FullStack</span></h5>
+        <p>
+          Sou Leonardo, estudante de Ciência da Computação e desenvolvedor de software com mais de quatro anos de
+          experiência.<br>
+          Tenho habilidades em Java, Angular, HTML, CSS, MySQL e Git, além de conhecimentos básicos em C++ e Python.<br>
+          Fui estagiário na Unicarioca e no TCE-RJ, onde desenvolvi minhas habilidades técnicas e interpessoais.<br>
+          Atualmente, sou Starter na GFT, onde estou aprimorando minhas habilidades em Java, MVC, Rest API, TDD, Spring
+          Boot,<br>
+          Spring Security, Spring Mail, Mensageria, Micro Services, Angular e Human Skills.<br>
+          Estou sempre em busca de novos aprendizados e animado para contribuir em um ambiente de trabalho
+          desafiador<br>
+          e estimulante. Além disso, possuo habilidades básicas em inglês (A2).
+        </p>
+        <a href="shared/Currículo Leonardo Messias.pdf" download="Profile.pdf" type="application/pdf" target="_blank"
+          class="btn-download bi bi-download"> Baixar Currículo</a>
       </div>
     </div>
-    <!--Fim seção Serviços-->
+  </section>
 
-   
+  <!--Fim seção Sobre-->
 
-    <!--Seção Projetos-->
+  <!--Seção minhas skills-->
 
-    <!--Fim seção Projetos-->
-
-    <!--Seção Footer-->
-    <footer class="footer">
-      <div id="footer_content">
-        <div id="footer_contacts">
-          <h1>Logo</h1>
-          <p>It's all about your dreams.</p>
-
-          <div id="footer_social_media">
-            <a href="#" class="footer_link" id="instagram">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-
-            <a href="#" class="footer_link" id="github">
-              <i class="fa-brands fa-github"></i>
-            </a>
-
-            <a href="#" class="footer_link" id="wpp">
-              <i class="fa-brands fa-whatsapp"></i>
-            </a>
-
-            <a href="#" class="footer_link" id="linkedin">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
+  <section id="skills" >
+    <div class="container">
+      <div class="section-title">
+        <h3 class="text-center fw-bold  main-title">Minhas Skills</h3>
+        <p class="text-center fw-bold ms-1 ps-3 sub-title">Oque eu sei?</p>
+        <div class="row gap-3 justify-content-center">
+          <div class="col-4 col-lg-2 text-center p-3 skill ">
+            <img src="" alt="">
+            <h4 class="text-center fw-bold">Java</h4>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2 text-center p-3 skill">
+            <img src="" alt="">
+            <h4 class="text-center fw-bold">Spring-Boot</h4>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+        </div>
+          <div class="col-4 col-lg-2 text-center p-3 skill">
+            <img src="" alt="">
+            <h4 class="text-center fw-bold">MYSQL</h4>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+        </div>
+        <div class="col-4 col-lg-2 text-center p-3 skill">
+          <img src="" alt="">
+          <h4 class="text-center fw-bold">GIT</h4>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 80%">80%</div>
+          </div>
+      </div>
+          <div class="col-4 col-lg-2 text-center p-3 skill">
+            <img src="" alt="">
+            <h4 class="text-center fw-bold">Angular</h4>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2 text-center p-3 skill">
+            <img src="" alt="">
+            <h4 class="text-center fw-bold">HTML</h4>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2 text-center p-3 skill">
+            <img src="" alt="">
+            <h4 class="text-center fw-bold">CSS</h4>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2 text-center p-3 skill">
+            <img src="" alt="">
+            <h4 class="text-center fw-bold">JavaScript</h4>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2 text-center p-3 skill">
+            <img src="" alt="">
+            <h4 class="text-center fw-bold">TypeScript</h4>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+        </div>
+          <div class="col-4 col-lg-2 text-center p-3 skill">
+            <img src="" alt="">
+            <h4 class="text-center fw-bold">BootStrap</h4>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
 
-        <ul class="footer-list">
-          <li>
-            <h3>Products</h3>
-          </li>
-          <li><a href="#" class="footer-link">Home</a></li>
-          <li><a href="#" class="footer-link">Sobre</a></li>
-          <li><a href="#" class="footer-link">Contato</a></li>
-        </ul>
+  </section>
 
-        <div id="footer_subscribe">
-          <h3>Contato</h3>
+  <!--Fim Seção skilss-->
 
-          <div class="form">
-            <form action="https://api.staticforms.xyz/submit" method="post">
-              <label>Nome:</label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Digite seu nome completo"
-                autocomplete="off"
-                required
-              />
-              <label>Email:</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Digite seu email"
-                autocomplete="off"
-                required
-              />
-              <label>Menssagem:</label>
-              <textarea
-                name="message"
-                id="mensagem"
-                cols="30"
-                rows="10"
-                placeholder="Digite sua mensagem"
-                autocomplete="off"
-                required
-              ></textarea>
+  <!--Seção Serviços-->
+  <div class="container-services" id="services">
+    <h1>Serviços Disponíveis</h1>
 
-              <button type="submit" name="enviar">Enviar</button>
+    <div class="container-services-box">
+      <div class="container-services-cards">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h2>Desenvolvimento Web</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in
+          rerum, similique accusantium doloribus, accusamus exercitationem
+          harum rem eligendi quaerat ut. Corrupti, recusandae voluptatem.
+          Voluptas ipsa animi dicta excepturi perferendis!
+        </p>
+        <button class="btn-ler">Ler Mais</button>
+      </div>
 
-              <input
-                type="hidden"
-                name="accessKey"
-                value="77c1f458-6f75-4cb6-b595-572e460e9f59"
-              />
-              <input
-                type="hidden"
-                name="redirectTo"
-                value="https://leonardo-messias.netlify.app/"
-              />
-            </form>
-          </div>
+      <div class="container-services-cards">
+        <i class="fa-solid fa-mobile-android"></i>
+        <h2>Desenvolvimento Mobile</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in
+          rerum, similique accusantium doloribus, accusamus exercitationem
+          harum rem eligendi quaerat ut. Corrupti, recusandae voluptatem.
+          Voluptas ipsa animi dicta excepturi perferendis!
+        </p>
+        <button class="btn-ler">Ler Mais</button>
+      </div>
 
-          <!-- <p>Enter your email to get notified about our news solutions</p>
+      <div class="container-services-cards">
+        <i class="fa-solid fa-user"></i>
+        <h2>Desenvolvimento BackEnd</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in
+          rerum, similique accusantium doloribus, accusamus exercitationem
+          harum rem eligendi quaerat ut. Corrupti, recusandae voluptatem.
+          Voluptas ipsa animi dicta excepturi perferendis!
+        </p>
+        <button class="btn-ler">Ler Mais</button>
+      </div>
+    </div>
+  </div>
+  <!--Fim seção Serviços-->
+
+
+
+  <!--Seção Projetos-->
+
+  <!--Fim seção Projetos-->
+
+  <!--Seção Footer-->
+  <footer class="footer">
+    <div id="footer_content">
+      <div id="footer_contacts">
+        <h1>Logo</h1>
+        <p>It's all about your dreams.</p>
+
+        <div id="footer_social_media">
+          <a href="#" class="footer_link" id="instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" class="footer_link" id="github">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="#" class="footer_link" id="wpp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <a href="#" class="footer_link" id="linkedin">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <ul class="footer-list">
+        <li>
+          <h3>Products</h3>
+        </li>
+        <li><a href="#" class="footer-link">Home</a></li>
+        <li><a href="#" class="footer-link">Sobre</a></li>
+        <li><a href="#" class="footer-link">Contato</a></li>
+      </ul>
+
+      <div id="footer_subscribe">
+        <h3>Contato</h3>
+
+        <div class="form">
+          <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome:</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome completo" autocomplete="off"
+              required />
+            <label>Email:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" autocomplete="off" required />
+            <label>Menssagem:</label>
+            <textarea name="message" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"
+              autocomplete="off" required></textarea>
+
+            <button type="submit" name="enviar">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="77c1f458-6f75-4cb6-b595-572e460e9f59" />
+            <input type="hidden" name="redirectTo" value="https://leonardo-messias.netlify.app/" />
+          </form>
+        </div>
+
+        <!-- <p>Enter your email to get notified about our news solutions</p>
     
                     <div id="input_group">
                         <input type="email" placeholder="Email">
                         <button><i class="fa-regular fa-envelope"></i></button>
                     </div> -->
-        </div>
       </div>
+    </div>
 
-      <div class="footer-contato">
-        <span class="cop"
-          >Copyright<i class="fa-regular fa-copyright"></i>2023, Leonardo
-          Messias
-        </span>
-        <div class="top">
-            <a href="#nav"><i class="fa-solid fa-arrow-up"></i></a>
-          </div>
+    <div class="footer-contato">
+      <span class="cop">Copyright<i class="fa-regular fa-copyright"></i>2023, Leonardo
+        Messias
+      </span>
+      <div class="top">
+        <a href="#nav"><i class="fa-solid fa-arrow-up"></i></a>
       </div>
-    </footer>
-    <!--Fim seção Footer-->
+    </div>
+  </footer>
+  <!--Fim seção Footer-->
 
-    <script src="./js/script.js"></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script src="./js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
 
 <!-- <script>
