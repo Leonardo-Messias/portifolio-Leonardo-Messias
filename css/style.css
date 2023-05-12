@@ -9,7 +9,6 @@
   --text: #fff;
   --background-black: #030305;
   --grey: #454343;
-
 }
 
 * {
@@ -63,14 +62,31 @@ body {
   -ms-transition: ease 0.4s;
 }
 
-#mainNavbar .nav-item:not(:last-child) .nav-link:hover::after{
-    width: 100%;
-} 
+#mainNavbar .nav-item:not(:last-child) .nav-link:hover::after {
+  width: 100%;
+}
 
 .navbar-brand {
   color: var(--green) !important;
   font-family: "Creepster", cursive;
   font-size: 2rem;
+}
+
+.btn-contact {
+  /* background-color: var(--green); */
+  color: var(--text);
+  border: 1px solid var(--green);
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 0.9375rem;
+  width: 5.375rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-contact:hover {
+  background-color: var(--text);
+  color: var(--green);
 }
 
 .logo {
@@ -97,10 +113,10 @@ button {
   cursor: pointer;
   transition: 0.5s;
 }
-button:hover {
+/* button:hover {
   background-color: #14c28e;
   color: #fff;
-}
+} */
 
 .container-text {
   padding: 21.875rem 0 0 8.125rem;
@@ -378,67 +394,67 @@ aside {
 
 /* Secao Skilss */
 
-.section-title{
-    text-align: center;
-    margin-bottom: 3.125rem;
-    color: var(--text);
+.section-title {
+  text-align: center;
+  margin-bottom: 3.125rem;
+  color: var(--text);
 }
 
-.section-title h3{
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 1.25rem;
+.section-title h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
 }
 
-.section-title p{
-    font-size: 1.325rem;
-    margin-bottom: 2rem;
-    color: #00feed;
+.section-title p {
+  font-size: 1.325rem;
+  margin-bottom: 2rem;
+  color: #00feed;
 }
 
-#skills{
-    background-color: var(--background-black);
-    padding: 6.25rem 0rem;
-    color: var(--text);
+#skills {
+  background-color: var(--background-black);
+  padding: 6.25rem 0rem;
+  color: var(--text);
 }
 
-.skill{
-    background-color: var(--grey);
-    border-radius: 10px;
-    -webkit-border-radius:7px;
-    -moz-border-radius:7px;
-    -ms-border-radius:7px;
-    -o-border-radius:7px;
-    cursor: pointer;
-    transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
+.skill {
+  background-color: var(--grey);
+  border-radius: 10px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
 }
 
-.skill:hover{
-    transform: scale(1.12) rotate(-5deg);
-    -webkit-transform: scale(1.12) rotate(-5deg);
-    -moz-transform: scale(1.12) rotate(-5deg);
-    -ms-transform: scale(1.12) rotate(-5deg);
-    -o-transform: scale(1.12) rotate(-5deg);
-    box-shadow: 0px 10px 25px 10px rgba(5, 250, 197, 0.75);
+.skill:hover {
+  transform: scale(1.12) rotate(-5deg);
+  -webkit-transform: scale(1.12) rotate(-5deg);
+  -moz-transform: scale(1.12) rotate(-5deg);
+  -ms-transform: scale(1.12) rotate(-5deg);
+  -o-transform: scale(1.12) rotate(-5deg);
+  box-shadow: 0px 10px 25px 10px rgba(5, 250, 197, 0.75);
 }
 
-.progress-bar{
-    background-color: var(--green);
-    border-radius: 10px;
-    -webkit-border-radius:7px;
-    -moz-border-radius:7px;
-    -ms-border-radius:7px;
-    -o-border-radius:7px;
-    transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
+.progress-bar {
+  background-color: var(--green);
+  border-radius: 10px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
 }
 
 .footer-contato i {
@@ -594,17 +610,27 @@ form textarea {
 }
 
 .top i {
-  display: flex;
-  justify-content: center;
-  text-decoration: underline;
-  width: 100%;
-  background-color: #000000;
-  color: #14c28e;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  font-size: 2.2rem;
+  color: var(--green);
+  background-color: var(--grey);
   cursor: pointer;
-  font-size: 1.875rem;
-  transition: 0.5s;
-  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  border-radius: 60%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
+
+.top i:hover {
+  color: var(--grey);
+  background-color: var(--green);
+} 
 
 ::-webkit-scrollbar {
   width: 0.625rem;
@@ -648,12 +674,12 @@ form textarea {
     justify-content: flex-start;
   }
 
-  .skill{
+  .skill {
     display: flex;
     flex-direction: column;
   }
 
-  .skill h4{
+  .skill h4 {
     font-size: 1.125rem;
   }
 
