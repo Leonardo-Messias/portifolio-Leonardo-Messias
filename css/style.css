@@ -8,6 +8,7 @@
   --green: #14c28e;
   --text: #fff;
   --background-black: #030305;
+  --dark-grey: #171717;
   --grey: #454343;
 }
 
@@ -85,8 +86,8 @@ body {
 }
 
 .btn-contact:hover {
-  background-color: var(--text);
-  color: var(--green);
+  background-color: var(--green);
+  color: var(--background-black);
 }
 
 .logo {
@@ -414,7 +415,7 @@ aside {
 }
 
 #skills {
-  background-color: var(--background-black);
+  background-color: var(--dark-grey);
   padding: 6.25rem 0rem;
   color: var(--text);
 }
@@ -479,7 +480,7 @@ aside {
 }
 
 #footer_content {
-  background-color: #171717;
+  background-color: var(--dark-grey);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 1rem 3.5rem;
@@ -630,7 +631,7 @@ form textarea {
 .top i:hover {
   color: var(--grey);
   background-color: var(--green);
-} 
+}
 
 ::-webkit-scrollbar {
   width: 0.625rem;
@@ -658,6 +659,12 @@ form textarea {
 }
 
 /* Media Query */
+
+@media screen and (max-width: 1380px) {
+  .container-text {
+    padding: 9.875rem 0 0 2.125rem;
+  }
+}
 
 @media screen and (max-width: 1200px) {
   .text-sobre h1 {
