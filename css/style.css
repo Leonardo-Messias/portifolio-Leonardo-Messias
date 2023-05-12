@@ -67,6 +67,10 @@ body {
   width: 100%;
 }
 
+.nav-item a{
+  font-size: 1rem;
+}
+
 .navbar-brand {
   color: var(--green) !important;
   font-family: "Creepster", cursive;
@@ -285,7 +289,7 @@ aside {
   white-space: nowrap;
   overflow: hidden;
   border-right: 0.125rem solid #14c28e;
-  animation: pisca normal infinite 0.8s, escrever normal 10s steps(55) both;
+  animation: pisca normal infinite 0.8s, escrever normal 10s steps(100) both;
 }
 
 .full {
@@ -647,7 +651,7 @@ form textarea {
 }
 
 @keyframes pisca {
-  100% {
+  50% {
     border-right-color: transparent;
   }
 }
