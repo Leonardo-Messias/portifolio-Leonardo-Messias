@@ -680,6 +680,17 @@ form textarea {
   }
 }
 
+@media (max-width: 990px){
+  .nav-item{
+    margin-left: 0 !important;
+  }
+
+  .btn-contact{
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
 @media screen and (max-width: 900px) {
   header {
     justify-content: flex-start;
