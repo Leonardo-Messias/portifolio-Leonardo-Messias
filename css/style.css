@@ -83,7 +83,8 @@ body {
   border: 1px solid var(--green);
   border-radius: 15px;
   padding: 5px;
-  font-size: 0.9375rem;
+  font-size: 0.9375rem !important;
+  white-space: nowrap;
   width: 5.375rem;
   cursor: pointer;
   transition: 0.5s;
@@ -388,6 +389,10 @@ aside {
   font-size: 0.9375rem;
   margin: 0.625rem 0rem;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .cop i {
@@ -419,6 +424,7 @@ aside {
 }
 
 #skills {
+  background-color: var(--dark-grey);
   background-color: var(--dark-grey);
   padding: 6.25rem 0rem;
   color: var(--text);
@@ -596,6 +602,12 @@ aside {
   height: 100%;
 }
 
+.form input::placeholder, textarea::placeholder{
+  font-size: 13px;
+}
+
+
+
 form input,
 textarea {
   background-color: #101010;
@@ -614,6 +626,8 @@ form textarea {
   height: 5rem;
 }
 
+
+
 .top i {
   position: fixed;
   bottom: 20px;
@@ -621,7 +635,7 @@ form textarea {
   z-index: 99;
   font-size: 2.2rem;
   color: var(--green);
-  background-color: var(--grey);
+  background-color: rgba(74, 74, 74, 0.5);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   border-radius: 60%;
@@ -834,6 +848,10 @@ form textarea {
 @media screen and (max-width: 570px) {
   .container-services h1 {
     font-size: 2.4rem;
+  }
+
+  .cop{
+   font-size: 0.7rem;
   }
 }
 
