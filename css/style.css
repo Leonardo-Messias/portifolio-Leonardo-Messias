@@ -651,6 +651,61 @@ form textarea {
   background-color: var(--green);
 }
 
+
+.cookie-container{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  align-items: flex-end;
+  
+}
+
+.cookie-container.active{
+  display: flex;
+}
+
+.content{
+  background-color: rgba(40, 40, 40, 0.818);
+  color: var(--text);
+  width: 100%;
+  padding: 3vw 2vw;
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+
+.btns{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.button{
+  text-transform: uppercase;
+}
+
+.button.accept{
+  background-color: var(--green);
+  color: var(--text);
+  border: none;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.button.accept:hover{
+  background-color: var(--text);
+  color: var(--green);
+}
+
+.button.cancel{
+  color: var(--green);
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
 ::-webkit-scrollbar {
   width: 0.625rem;
 }

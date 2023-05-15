@@ -32,3 +32,25 @@ function ocultar(){
 }
 
 ocultar()
+
+
+//Seção Cookies 
+    let cookieModal = document.querySelector(".cookie-container")
+    let cancelCookieBtn = document.querySelector(".button.cancel")
+    let acceptCookieBtn = document.querySelector(".button.accept")
+
+    cancelCookieBtn.addEventListener("click", function (){
+        cookieModal.classList.remove("active")
+    })
+
+    acceptCookieBtn.addEventListener("click", function (){
+        cookieModal.classList.remove("active")
+        localStorage.setItem("cookieAccepted", "true")   
+    })  
+
+    setTimeout(function(){
+        let cookieAccepted = localStorage.getItem("cookieAccepted")
+        if(cookieAccepted != "true"){
+            cookieModal.classList.add("active")
+        }
+    }, 2000)
