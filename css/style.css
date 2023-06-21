@@ -67,7 +67,7 @@ body {
   width: 100%;
 }
 
-.nav-item a{
+.nav-item a {
   font-size: 1rem;
 }
 
@@ -169,9 +169,18 @@ button {
   margin-top: 1.875rem;
 }
 
+.btn-sobre:hover{
+  background-color: #14c28e;
+  color: #fff;
+}
+
 .background-color-sobre {
   background-color: #030305;
   width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 3.125rem;
 }
 
@@ -602,11 +611,10 @@ aside {
   height: 100%;
 }
 
-.form input::placeholder, textarea::placeholder{
+.form input::placeholder,
+textarea::placeholder {
   font-size: 13px;
 }
-
-
 
 form input,
 textarea {
@@ -625,8 +633,6 @@ form textarea {
   resize: none;
   height: 5rem;
 }
-
-
 
 .top i {
   position: fixed;
@@ -651,8 +657,7 @@ form textarea {
   background-color: var(--green);
 }
 
-
-.cookie-container{
+.cookie-container {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -662,14 +667,13 @@ form textarea {
   z-index: 999;
   display: none;
   align-items: flex-end;
-  
 }
 
-.cookie-container.active{
+.cookie-container.active {
   display: flex;
 }
 
-.content{
+.content {
   background-color: rgba(40, 40, 40, 0.818);
   color: var(--text);
   width: 100%;
@@ -677,17 +681,17 @@ form textarea {
   border-radius: 0.625rem 0.625rem 0 0;
 }
 
-.btns{
+.btns {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
 }
 
-.button{
+.button {
   text-transform: uppercase;
 }
 
-.button.accept{
+.button.accept {
   background-color: var(--green);
   color: var(--text);
   border: none;
@@ -695,12 +699,12 @@ form textarea {
   transition: all 0.3s ease-in-out;
 }
 
-.button.accept:hover{
+.button.accept:hover {
   background-color: var(--text);
   color: var(--green);
 }
 
-.button.cancel{
+.button.cancel {
   color: var(--green);
   padding: 0.5rem 1rem;
   transition: all 0.3s ease-in-out;
@@ -749,12 +753,12 @@ form textarea {
   }
 }
 
-@media (max-width: 990px){
-  .nav-item{
+@media (max-width: 990px) {
+  .nav-item {
     margin-left: 0 !important;
   }
 
-  .btn-contact{
+  .btn-contact {
     width: 100%;
     margin-top: 1rem;
   }
@@ -905,8 +909,8 @@ form textarea {
     font-size: 2.4rem;
   }
 
-  .cop{
-   font-size: 0.7rem;
+  .cop {
+    font-size: 0.7rem;
   }
 }
 
