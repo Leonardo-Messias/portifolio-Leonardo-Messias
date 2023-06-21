@@ -53,4 +53,4 @@ ocultar()
         if(cookieAccepted != "true"){
             cookieModal.classList.add("active")
         }
-    }, 2000)
+    }, 1000)
