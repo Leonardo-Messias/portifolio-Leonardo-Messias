@@ -169,7 +169,7 @@ button {
   margin-top: 1.875rem;
 }
 
-.btn-sobre:hover{
+.btn-sobre:hover {
   background-color: #14c28e;
   color: #fff;
 }
@@ -330,7 +330,7 @@ aside {
 
 .container-services-cards {
   background-color: #191919;
-  height: 26.25rem;
+  height: 35.25rem;
   width: 23.75rem;
   border: 1.25rem;
   border-radius: 1.25rem;
@@ -377,6 +377,10 @@ aside {
 }
 
 .btn-ler {
+  position: absolute;
+  bottom: -1px;
+  left: 114px;
+  margin-bottom: 10px;
   background-color: #14c28e;
   color: #fff;
   text-transform: none;
@@ -466,6 +470,9 @@ aside {
 .progress-bar {
   background-color: var(--green);
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
@@ -609,6 +616,7 @@ aside {
   border-color: #14c28e;
   width: 100%;
   height: 100%;
+  margin-bottom: 1rem;
 }
 
 .form input::placeholder,
@@ -913,6 +921,14 @@ form textarea {
   .cop {
     font-size: 0.7rem;
   }
+
+  .container-services-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 37rem;
+  }
 }
 
 @media screen and (max-width: 426px) {
@@ -923,5 +939,12 @@ form textarea {
 
   .text p {
     font-size: 1.13rem;
+  }
+
+  .btn-ler{
+    position: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
